@@ -7343,36 +7343,7 @@
                 </li>
             </ul>
         </div><!-- menu -->
-        <script>
-    <!-- Yandex.Metrika counter -->
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter34423220 = new Ya.Metrika({
-                    id:34423220,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true,
-                    triggerEvent:true
-                });
-            } catch(e) { }
-        });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-    <!-- /Yandex.Metrika counter -->
-</script>
 
 
         <div class="copyright">
@@ -7383,23 +7354,14 @@
     </div><!-- footer -->
 </div><!-- footer-wrapper -->
 
-<script src="/assets/346d741e/jquery.js?v=1493805546"></script>
-<script src="/js/radio.js?v=1493805543"></script>
-<script src="/js/ya-counter-params.js?v=1493805543" data-user-params="{&quot;isAnonymous&quot;:false,&quot;isVip&quot;:false,&quot;hasTsProxySubscription&quot;:false}"></script>
-<script src="/js/jquery.menu-aim.js?v=1493805543"></script>
-<script src="/js/noxbit-peer-agent.js?v=1493805543"></script>
-<script src="/assets/a0127513/js/swfobject.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/jquery.scrollText.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/flowplayer-3.2.13.min.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/hls/hls.min.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/video.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/ace-jsapi-beta/beta-core.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/ace-jsapi-beta/beta-player.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/ace-jsapi-beta/ttv-mod-controls.js?v=1493805545"></script>
-<script src="/assets/a0127513/js/ttv-player.js?v=1493805545"></script>
-<script type="text/javascript">jQuery(document).ready(function () {
-radio.commands.execute('ya-counter-params', {"playerType":"acestream"});
-radio.commands.execute('player.init', $('#ttv-player').data());
-});</script></body>
+
+<script type="text/javascript">
+    var primus = document.querySelectorAll('#hls-toggle').getAttribute('data-stream');
+    console.log(primus);
+
+</script>
+
+
+</body>
 </html>
 
